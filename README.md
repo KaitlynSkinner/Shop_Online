@@ -20,7 +20,7 @@ I would like a back end for my e-commerce website that uses the latest technolog
   * [Questions](#questions)
 
 ## Features
-  * Database includes 4 models = (Catgeory, Product, Tag, and ProductTag)
+  * Database includes 4 models: Catgeory, Product, Tag, and ProductTag
   * Able to create, read, update, and delete operations using the above Sequelize models.
 
 ## Technology Used
@@ -61,5 +61,6 @@ This application does not have any tests.
 
 ## Questions
 If you have any questions please feel free to contact me.
+
 **Email:** kaitlyneskinner@gmail.com
 **GitHub Username:** kaitlynskinner
