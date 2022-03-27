@@ -8,6 +8,13 @@ router.get('/', (req, res) => {
   // be sure to include its associated Products
   Category.findAll({
     // attributes: {} ********************************
+    include: [
+      {
+        model: Product,
+        attributes: ['product_name', 'price']
+        // , ' stock'
+      }
+    ]
   })
   .then(dbCategoryData => res.json(dbCategoryData))
   .catch(err => {
@@ -23,7 +30,13 @@ router.get('/:id', (req, res) => {
   Category.findOne({
     where: {
       id: req.params.id
-    }
+    },
+    include: [
+      {
+        model: Product,
+        attributes: ['product_name', 'price']
+      }
+    ]
   })
   .then(dbCategoryData => {
     if (!dbCategoryData) {
@@ -55,8 +68,9 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
+    individualHooks: true,
     where: {
-      id: req.params.id
+        id: req.params.id
     }
   })
   .then(dbCategoryData => {

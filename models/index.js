@@ -15,13 +15,29 @@ Category.hasMany(Product, {
 });
 
 // Products belongToMany Tags (through ProductTag)
-// Product.belongsToMany(ProductTag, {
-  
-// });
+Product.belongsToMany(Tag, {
+  through: ProductTag,
+  as: 'product_tags',
+  foreignKey: 'category_id'
+});
 
 // Tags belongToMany Products (through ProductTag)
-// Tag.belongsToMany(ProductTag, {
+Tag.belongsToMany(Product, {
+  through: ProductTag,
+  as: 'product_tags',
+  foreignKey: 'product_id'
+});
 
+// Tag.belongsTo(Product, {
+//   foreignKey: 'product_id'
+// });
+
+// Category.hasMany(Tag, {
+//   foreignKey: 'category_id'
+// });
+
+// Product.hasMany(Tag, {
+//   foreignKey: 'product_id'
 // });
 
 module.exports = {
