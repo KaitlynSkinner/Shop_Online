@@ -49,6 +49,7 @@ I would like a back end for my e-commerce website that uses the latest technolog
  Once installed, type ```node server``` to begin.
 
  ## Demos
+ ** **
    ** GET routes to return all categories, all products, and all tags being tested in Insomnia **
   [![Watch the video](https://img.youtube.com/vi/M2suXTiGQSM/0.jpg)](https://www.youtube.com/watch?v=M2suXTiGQSM)
   ** **
