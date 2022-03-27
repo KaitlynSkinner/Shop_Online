@@ -41,7 +41,7 @@ I would like a back end for my e-commerce website that uses the latest technolog
 ## Installation
   ```
   # using npm
-  npm i sequalize
+  npm i
   ```
 
 ## Usage
