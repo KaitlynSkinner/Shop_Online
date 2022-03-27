@@ -50,13 +50,13 @@ I would like a back end for my e-commerce website that uses the latest technolog
 
  ## Demos
  ** **
-   ** GET routes to return all categories, all products, and all tags being tested in Insomnia **
+   GET routes to return all categories, all products, and all tags being tested in Insomnia
   [![Watch the video](https://img.youtube.com/vi/M2suXTiGQSM/0.jpg)](https://www.youtube.com/watch?v=M2suXTiGQSM)
   ** **
-    ** GET routes to return a single category, a single product, and a single tag being tested in Insomnia **
+    GET routes to return a single category, a single product, and a single tag being tested in Insomnia
   [![Watch the video](https://img.youtube.com/vi/x_h2vaKJy20/0.jpg)](https://www.youtube.com/watch?v=x_h2vaKJy20)
   ** **
-    ** POST, PUT, and DELETE routes for categories being tested in Insomnia **
+    POST, PUT, and DELETE routes for categories being tested in Insomnia
   [![Watch the video](https://img.youtube.com/vi/ACgZxq4Ro4Y/0.jpg)](https://www.youtube.com/watch?v=ACgZxq4Ro4Y)
 
 ## License
