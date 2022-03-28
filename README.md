@@ -50,7 +50,13 @@ I would like a back end for my e-commerce website that uses the latest technolog
 
  ## Demos
  ** **
- ```
+  ```
+  Command Line & MySQL Walkthrough
+  ```
+  [![Watch the video](https://img.youtube.com/vi/9VWXe9IEvl4/0.jpg)](https://www.youtube.com/watch?v=9VWXe9IEvl4)
+
+ ** **
+  ```
    GET routes to return all categories, all products, and all tags being tested in Insomnia
   ```
   [![Watch the video](https://img.youtube.com/vi/M2suXTiGQSM/0.jpg)](https://www.youtube.com/watch?v=M2suXTiGQSM)
